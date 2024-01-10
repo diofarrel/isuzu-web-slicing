@@ -304,8 +304,9 @@ body {
 
 /* HEADER */
 .header {
-    height: 250px;
+    height: 480px;
     margin-top: 5rem;
+    padding-top: 2.5rem;
     background-color: #da0037;
 }
 
@@ -322,6 +323,10 @@ body {
 
 .header .tagline {
     padding-top: 70px;
+}
+
+.header img {
+    transform: scaleX(-1);
 }
 
 /* SINGLE */
